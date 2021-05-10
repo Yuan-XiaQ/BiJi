@@ -2,3 +2,5 @@ language: ruby
 rvm:
   - 2.3
 script: "bundle exec jekyll build"
+before_install ：
+- phpenv global 7.0
